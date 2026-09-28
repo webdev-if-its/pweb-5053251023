@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GlowMind – Where mental wellness meets vibrant living. Discover natural products to enhance focus, calm your mind, and shine from within."
+    />
+    <title>GlowMind – Elevate Your Mind, Embrace Your Glow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar">
+      <div class="container navbar__inner">
+        <a href="#" class="navbar__logo" id="logo-link">
+          <img src="logo.jpg" alt="BurgerGokil logo" class="navbar__logo-img" />
+          <span class="navbar__brand">BurgerGokil</span>
+        </a>
+
+        <nav class="navbar__nav" id="main-nav">
+          <a href="#about" class="navbar__link">About</a>
+          <a href="#product" class="navbar__link">Product</a>
+          <a href="#reviews" class="navbar__link">Reviews</a>
+          <a href="#resources" class="navbar__link">Resources</a>
+        </nav>
+
+        <div class="navbar__actions">
+          <a href="#cart" class="navbar__icon" id="cart-btn" aria-label="Cart">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="9" cy="21" r="1" />
+              <circle cx="20" cy="21" r="1" />
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+            </svg>
+          </a>
+          <a href="#shop" class="btn btn--primary" id="shop-btn">Shop</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== HERO SECTION ===== -->
+      <section class="hero" id="about">
+        <div class="container hero__inner">
+          <!-- Left Content -->
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Nikmati Burger Gokil,<br />Bikin Harimu Makin Asik
+            </h1>
+            <p class="hero__desc">
+              Selamat datang di BurgerGokil, tempat terbaik buat kamu pecinta burger sejati. 
+              Cobain berbagai menu burger dengan daging juicy dan saus rahasia yang bakal bikin kamu balik lagi!
+            </p>
+
+            <div class="hero__buttons">
+              <a href="#about" class="btn btn--outline" id="learn-more-btn">Learn More</a>
+              <a href="#shop" class="btn btn--yellow" id="shop-now-btn">Shop Now</a>
+            </div>
+
+            <div class="hero__social-proof">
+              <div class="avatar-group">
+                <img src="gambar (1).jpg" alt="User 1" class="avatar" id="avatar-1" />
+                <img src="gambar (2).jpg" alt="User 2" class="avatar" id="avatar-2" />
+                <span class="avatar avatar--count">15M+</span>
+              </div>
+              <p class="hero__social-text">
+                Thousands of people using this product for their stunning glow.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Image Grid -->
+          <div class="hero__grid" id="hero-grid">
+            <div class="hero__grid-col hero__grid-col--left">
+              <div class="hero__grid-item">
+                <img src="gambar (1).jpg" alt="Happy customer 1" class="hero__grid-img" />
+              </div>
+              <div class="hero__grid-item">
+                <img src="gambar (2).jpg" alt="Happy customer 2" class="hero__grid-img" />
+              </div>
+            </div>
+            <div class="hero__grid-col hero__grid-col--right">
+              <div class="hero__grid-item">
+                <img src="gambar (3).jpg" alt="Happy customer 3" class="hero__grid-img" />
+              </div>
+              <div class="hero__grid-item">
+                <img src="gambar (4).jpg" alt="Happy customer 4" class="hero__grid-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PRODUCT SECTION ===== -->
+      <section class="product" id="product">
+        <div class="container product__inner">
+          <!-- Left: Product Image -->
+          <div class="product__image-wrap">
+            <img
+              src="produk.jpg"
+              alt="GlowMind supplement bottle"
+              class="product__img"
+              id="product-img"
+            />
+          </div>
+
+          <!-- Right: Product Content -->
+          <div class="product__content">
+            <h2 class="product__title">
+              Rasakan Kelezatan Burger Terbaik Di Setiap Gigitan
+            </h2>
+            <p class="product__desc">
+              Burger kami dibuat dari bahan-bahan pilihan berkualitas tinggi,
+              diracik dengan cinta dan keahlian untuk menghadirkan cita rasa
+              yang tak terlupakan. Setiap gigitan adalah perjalanan menuju
+              kebahagiaan sejati.
+            </p>
+
+            <div class="product__features">
+              <div class="feature" id="feature-1">
+                <div class="feature__text">
+                  <h3 class="feature__title">100% Daging Segar</h3>
+                  <p class="feature__desc">Daging sapi premium tanpa bahan pengawet, segar setiap hari.</p>
+                </div>
+              </div>
+              <div class="feature" id="feature-2">
+                <div class="feature__text">
+                  <h3 class="feature__title">Resep Rahasia</h3>
+                  <p class="feature__desc">Bumbu spesial turun-temurun yang bikin nagih dan susah dilupakan.</p>
+                </div>
+              </div>
+              <div class="feature" id="feature-3">
+                <div class="feature__text">
+                  <h3 class="feature__title">Juicy & Crispy</h3>
+                  <p class="feature__desc">Tekstur sempurna, luar crispy, dalam juicy, bikin happy.</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#shop" class="btn btn--primary" id="discover-btn">Order Sekarang</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </body>
+</html>
